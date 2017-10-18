@@ -1,0 +1,15 @@
+The dataset is set-up in a tidy format, with 8 columns which convey information from a series of experiments. Observations follow the rules of tidy data, as each variable forms a column (i.e. there are no extra columns for values within a possible value), each table stores data about one kind of observation (only summary statistics are displayed within the data), and each observation is a row.
+ 
+EXPERIMENT INFORMATION 
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities wearing a smartphone on the waist. 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured. 
+
+VARIABLE CODES
+SUBJECT- The identifier of the subject who carried out the experiment.
+ACTIVITY-  The identifier of the activity the subject performed while wearing the smartphone (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+DOMAIN- Whether the observed value was obtained after applying a Fast Fourier Transform (FFT) to the dataset (labeled “fourier.transform”), or not. The rest of the data, without this transformation, are (labeled “time”).
+SIGNAL_TYPE- Either accelerometer or gyroscope, this variable refers to the sensor being used. Both sensors are embedded within the Samsung Galaxy capabilities.  
+SIGNAL_SOURCE- Sensor signals were filtered in order to reduce the noise in the dataset. Signals lower than 0.3 Hz were assumed to be part of the gravitational force (labeled as “gravity”) while higher frequencies were assumed as part of the body motion components (therefore labeled as “body”). 
+PARAMETER- Whether the value in the “value” column is the mean or the standard deviation. 
+AXIS- Weather the measure recorded in the “value” column is along the X, Y, or Z axis, or if it is the magnitude (the squared root of the sum of each axis elevated to the 2nd power) of the whole movement. 
+VALUE- The value for the corresponding activity, subject, domain, axis , source, and parameter. 
+
